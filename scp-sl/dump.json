@@ -110673,5 +110673,2693 @@
   {
     "TypeName": "GeneratedNetworkCode",
     "Fields": []
+  },
+  {
+    "TypeName": "<Module>",
+    "Fields": []
+  },
+  {
+    "TypeName": "EmbeddedAttribute",
+    "Fields": []
+  },
+  {
+    "TypeName": "IsUnmanagedAttribute",
+    "Fields": []
+  },
+  {
+    "TypeName": "UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData",
+    "Fields": [
+      {
+        "FieldName": "FilePathsData",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "TypesData",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "TotalTypes",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "TotalFiles",
+        "Offset": "0x14"
+      },
+      {
+        "FieldName": "IsEditorOnly",
+        "Offset": "0x18"
+      }
+    ]
+  },
+  {
+    "TypeName": "UnitySourceGeneratedAssemblyMonoScriptTypes_v1",
+    "Fields": []
+  },
+  {
+    "TypeName": "SyncVarAttribute",
+    "Fields": [
+      {
+        "FieldName": "hook",
+        "Offset": "0x18"
+      }
+    ]
+  },
+  {
+    "TypeName": "CommandAttribute",
+    "Fields": [
+      {
+        "FieldName": "channel",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "requiresAuthority",
+        "Offset": "0x14"
+      }
+    ]
+  },
+  {
+    "TypeName": "ClientRpcAttribute",
+    "Fields": [
+      {
+        "FieldName": "channel",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "includeOwner",
+        "Offset": "0x14"
+      }
+    ]
+  },
+  {
+    "TypeName": "TargetRpcAttribute",
+    "Fields": [
+      {
+        "FieldName": "channel",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "ServerAttribute",
+    "Fields": []
+  },
+  {
+    "TypeName": "ServerCallbackAttribute",
+    "Fields": []
+  },
+  {
+    "TypeName": "ClientAttribute",
+    "Fields": []
+  },
+  {
+    "TypeName": "ClientCallbackAttribute",
+    "Fields": []
+  },
+  {
+    "TypeName": "SceneAttribute",
+    "Fields": []
+  },
+  {
+    "TypeName": "ShowInInspectorAttribute",
+    "Fields": []
+  },
+  {
+    "TypeName": "Batcher",
+    "Fields": [
+      {
+        "FieldName": "threshold",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "TimestampSize",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "batches",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "batch",
+        "Offset": "0x20"
+      }
+    ]
+  },
+  {
+    "TypeName": "Unbatcher",
+    "Fields": [
+      {
+        "FieldName": "batches",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "reader",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "readerRemoteTimeStamp",
+        "Offset": "0x20"
+      }
+    ]
+  },
+  {
+    "TypeName": "ConnectionQuality",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "EXCELLENT",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "GOOD",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "FAIR",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "POOR",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ESTIMATING",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "ConnectionQualityHeuristics",
+    "Fields": []
+  },
+  {
+    "TypeName": "HostMode",
+    "Fields": []
+  },
+  {
+    "TypeName": "InterestManagement",
+    "Fields": [
+      {
+        "FieldName": "newObservers",
+        "Offset": "0x20"
+      }
+    ]
+  },
+  {
+    "TypeName": "InterestManagementBase",
+    "Fields": []
+  },
+  {
+    "TypeName": "Capture",
+    "Fields": []
+  },
+  {
+    "TypeName": "HistoryBounds",
+    "Fields": [
+      {
+        "FieldName": "boundsPerBucket",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "fullBuckets",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "bucketLimit",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "currentBucket",
+        "Offset": "0x24"
+      },
+      {
+        "FieldName": "currentBucketSize",
+        "Offset": "0x40"
+      },
+      {
+        "FieldName": "<boundsCount>k__BackingField",
+        "Offset": "0x44"
+      },
+      {
+        "FieldName": "totalMinMax",
+        "Offset": "0x48"
+      }
+    ]
+  },
+  {
+    "TypeName": "LagCompensation",
+    "Fields": []
+  },
+  {
+    "TypeName": "LagCompensationSettings",
+    "Fields": [
+      {
+        "FieldName": "historyLimit",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "captureInterval",
+        "Offset": "0x14"
+      }
+    ]
+  },
+  {
+    "TypeName": "MinMaxBounds",
+    "Fields": [
+      {
+        "FieldName": "min",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "max",
+        "Offset": "0xC"
+      }
+    ]
+  },
+  {
+    "TypeName": "LocalConnectionToClient",
+    "Fields": [
+      {
+        "FieldName": "connectionToServer",
+        "Offset": "0x118"
+      }
+    ]
+  },
+  {
+    "TypeName": "LocalConnectionToServer",
+    "Fields": [
+      {
+        "FieldName": "connectionToClient",
+        "Offset": "0x48"
+      },
+      {
+        "FieldName": "queue",
+        "Offset": "0x50"
+      },
+      {
+        "FieldName": "connectedEventPending",
+        "Offset": "0x58"
+      },
+      {
+        "FieldName": "disconnectedEventPending",
+        "Offset": "0x59"
+      }
+    ]
+  },
+  {
+    "TypeName": "TimeSnapshotMessage",
+    "Fields": []
+  },
+  {
+    "TypeName": "ReadyMessage",
+    "Fields": []
+  },
+  {
+    "TypeName": "NotReadyMessage",
+    "Fields": []
+  },
+  {
+    "TypeName": "AddPlayerMessage",
+    "Fields": []
+  },
+  {
+    "TypeName": "SceneMessage",
+    "Fields": [
+      {
+        "FieldName": "sceneName",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "sceneOperation",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "customHandling",
+        "Offset": "0x9"
+      }
+    ]
+  },
+  {
+    "TypeName": "SceneOperation",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Normal",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "LoadAdditive",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "UnloadAdditive",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "CommandMessage",
+    "Fields": [
+      {
+        "FieldName": "netId",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "componentIndex",
+        "Offset": "0x4"
+      },
+      {
+        "FieldName": "functionHash",
+        "Offset": "0x6"
+      },
+      {
+        "FieldName": "payload",
+        "Offset": "0x8"
+      }
+    ]
+  },
+  {
+    "TypeName": "RpcMessage",
+    "Fields": [
+      {
+        "FieldName": "netId",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "componentIndex",
+        "Offset": "0x4"
+      },
+      {
+        "FieldName": "functionHash",
+        "Offset": "0x6"
+      },
+      {
+        "FieldName": "payload",
+        "Offset": "0x8"
+      }
+    ]
+  },
+  {
+    "TypeName": "SpawnMessage",
+    "Fields": [
+      {
+        "FieldName": "netId",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "isLocalPlayer",
+        "Offset": "0x4"
+      },
+      {
+        "FieldName": "isOwner",
+        "Offset": "0x5"
+      },
+      {
+        "FieldName": "sceneId",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "assetId",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "position",
+        "Offset": "0x14"
+      },
+      {
+        "FieldName": "rotation",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "scale",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "payload",
+        "Offset": "0x40"
+      }
+    ]
+  },
+  {
+    "TypeName": "ChangeOwnerMessage",
+    "Fields": [
+      {
+        "FieldName": "netId",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "isOwner",
+        "Offset": "0x4"
+      },
+      {
+        "FieldName": "isLocalPlayer",
+        "Offset": "0x5"
+      }
+    ]
+  },
+  {
+    "TypeName": "ObjectSpawnStartedMessage",
+    "Fields": []
+  },
+  {
+    "TypeName": "ObjectSpawnFinishedMessage",
+    "Fields": []
+  },
+  {
+    "TypeName": "ObjectDestroyMessage",
+    "Fields": [
+      {
+        "FieldName": "netId",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "ObjectHideMessage",
+    "Fields": [
+      {
+        "FieldName": "netId",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "EntityStateMessage",
+    "Fields": [
+      {
+        "FieldName": "netId",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "payload",
+        "Offset": "0x8"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkPingMessage",
+    "Fields": [
+      {
+        "FieldName": "localTime",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkPongMessage",
+    "Fields": [
+      {
+        "FieldName": "localTime",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "UnityEventNetworkConnection",
+    "Fields": []
+  },
+  {
+    "TypeName": "NetworkAuthenticator",
+    "Fields": [
+      {
+        "FieldName": "OnServerAuthenticated",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "OnClientAuthenticated",
+        "Offset": "0x28"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncMode",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Observers",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Owner",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncDirection",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ServerToClient",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ClientToServer",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkBehaviour.<>c__DisplayClass50_0",
+    "Fields": [
+      {
+        "FieldName": "<>4__this",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "nthBit",
+        "Offset": "0x18"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkBehaviour",
+    "Fields": [
+      {
+        "FieldName": "syncDirection",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "syncMode",
+        "Offset": "0x24"
+      },
+      {
+        "FieldName": "syncInterval",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "lastSyncTime",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "syncObjects",
+        "Offset": "0x38"
+      },
+      {
+        "FieldName": "<ComponentIndex>k__BackingField",
+        "Offset": "0x40"
+      },
+      {
+        "FieldName": "<syncVarDirtyBits>k__BackingField",
+        "Offset": "0x48"
+      },
+      {
+        "FieldName": "syncObjectDirtyBits",
+        "Offset": "0x50"
+      },
+      {
+        "FieldName": "syncVarHookGuard",
+        "Offset": "0x58"
+      },
+      {
+        "FieldName": "_identityCache",
+        "Offset": "0x60"
+      },
+      {
+        "FieldName": "_identitySet",
+        "Offset": "0x68"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkBehaviourSyncVar",
+    "Fields": [
+      {
+        "FieldName": "netId",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "componentIndex",
+        "Offset": "0x4"
+      }
+    ]
+  },
+  {
+    "TypeName": "ConnectState",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "None",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Connecting",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Connected",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Disconnecting",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Disconnected",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkClient.<>O",
+    "Fields": [
+      {
+        "FieldName": "<0>__OnTransportConnected",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "<1>__OnTransportData",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "<2>__OnTransportDisconnected",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "<3>__OnTransportError",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "<4>__OnHostClientObjectDestroy",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "<5>__OnHostClientObjectHide",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "<6>__OnHostClientSpawn",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "<7>__OnObjectDestroy",
+        "Offset": "0x38"
+      },
+      {
+        "FieldName": "<8>__OnObjectHide",
+        "Offset": "0x40"
+      },
+      {
+        "FieldName": "<9>__OnClientPong",
+        "Offset": "0x48"
+      },
+      {
+        "FieldName": "<10>__OnClientPing",
+        "Offset": "0x50"
+      },
+      {
+        "FieldName": "<11>__OnSpawn",
+        "Offset": "0x58"
+      },
+      {
+        "FieldName": "<12>__OnObjectSpawnStarted",
+        "Offset": "0x60"
+      },
+      {
+        "FieldName": "<13>__OnObjectSpawnFinished",
+        "Offset": "0x68"
+      },
+      {
+        "FieldName": "<14>__OnEntityStateMessage",
+        "Offset": "0x70"
+      },
+      {
+        "FieldName": "<15>__OnTimeSnapshotMessage",
+        "Offset": "0x78"
+      },
+      {
+        "FieldName": "<16>__OnChangeOwner",
+        "Offset": "0x80"
+      },
+      {
+        "FieldName": "<17>__OnRPCMessage",
+        "Offset": "0x88"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkClient.<>c",
+    "Fields": [
+      {
+        "FieldName": "<>9",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "<>9__53_0",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "<>9__53_1",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "<>9__53_2",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "<>9__53_3",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "<>9__83_0",
+        "Offset": "0x28"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkClient.<>c__DisplayClass54_0<T>",
+    "Fields": [
+      {
+        "FieldName": "handler",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkClient.<>c__DisplayClass56_0<T>",
+    "Fields": [
+      {
+        "FieldName": "handler",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkClient.<>c__DisplayClass62_0",
+    "Fields": [
+      {
+        "FieldName": "spawnHandler",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkClient.<>c__DisplayClass63_0",
+    "Fields": [
+      {
+        "FieldName": "spawnHandler",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkClient.<>c__DisplayClass67_0",
+    "Fields": [
+      {
+        "FieldName": "spawnHandler",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkClient",
+    "Fields": [
+      {
+        "FieldName": "lastSendTime",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "handlers",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "spawned",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "<connection>k__BackingField",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "ready",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "<localPlayer>k__BackingField",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "connectState",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "OnConnectedEvent",
+        "Offset": "0x38"
+      },
+      {
+        "FieldName": "OnDisconnectedEvent",
+        "Offset": "0x40"
+      },
+      {
+        "FieldName": "OnErrorEvent",
+        "Offset": "0x48"
+      },
+      {
+        "FieldName": "prefabs",
+        "Offset": "0x50"
+      },
+      {
+        "FieldName": "spawnHandlers",
+        "Offset": "0x58"
+      },
+      {
+        "FieldName": "unspawnHandlers",
+        "Offset": "0x60"
+      },
+      {
+        "FieldName": "isSpawnFinished",
+        "Offset": "0x68"
+      },
+      {
+        "FieldName": "spawnableObjects",
+        "Offset": "0x70"
+      },
+      {
+        "FieldName": "unbatcher",
+        "Offset": "0x78"
+      },
+      {
+        "FieldName": "aoi",
+        "Offset": "0x80"
+      },
+      {
+        "FieldName": "isLoadingScene",
+        "Offset": "0x88"
+      },
+      {
+        "FieldName": "connectionQuality",
+        "Offset": "0x89"
+      },
+      {
+        "FieldName": "snapshotSettings",
+        "Offset": "0x90"
+      },
+      {
+        "FieldName": "bufferTimeMultiplier",
+        "Offset": "0x98"
+      },
+      {
+        "FieldName": "snapshots",
+        "Offset": "0xA0"
+      },
+      {
+        "FieldName": "localTimeline",
+        "Offset": "0xA8"
+      },
+      {
+        "FieldName": "localTimescale",
+        "Offset": "0xB0"
+      },
+      {
+        "FieldName": "driftEma",
+        "Offset": "0xB8"
+      },
+      {
+        "FieldName": "dynamicAdjustment",
+        "Offset": "0xE0"
+      },
+      {
+        "FieldName": "dynamicAdjustmentTolerance",
+        "Offset": "0xE4"
+      },
+      {
+        "FieldName": "deliveryTimeEmaDuration",
+        "Offset": "0xE8"
+      },
+      {
+        "FieldName": "deliveryTimeEma",
+        "Offset": "0xF0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkConnection",
+    "Fields": [
+      {
+        "FieldName": "LocalConnectionId",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "connectionId",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "isAuthenticated",
+        "Offset": "0x14"
+      },
+      {
+        "FieldName": "authenticationData",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "isReady",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "lastMessageTime",
+        "Offset": "0x24"
+      },
+      {
+        "FieldName": "<identity>k__BackingField",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "owned",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "batches",
+        "Offset": "0x38"
+      },
+      {
+        "FieldName": "<remoteTimeStamp>k__BackingField",
+        "Offset": "0x40"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkConnectionToClient",
+    "Fields": [
+      {
+        "FieldName": "reliableRpcs",
+        "Offset": "0x48"
+      },
+      {
+        "FieldName": "unreliableRpcs",
+        "Offset": "0x50"
+      },
+      {
+        "FieldName": "IpOverride",
+        "Offset": "0x58"
+      },
+      {
+        "FieldName": "observing",
+        "Offset": "0x60"
+      },
+      {
+        "FieldName": "unbatcher",
+        "Offset": "0x68"
+      },
+      {
+        "FieldName": "driftEma",
+        "Offset": "0x70"
+      },
+      {
+        "FieldName": "deliveryTimeEma",
+        "Offset": "0x98"
+      },
+      {
+        "FieldName": "remoteTimeline",
+        "Offset": "0xC0"
+      },
+      {
+        "FieldName": "remoteTimescale",
+        "Offset": "0xC8"
+      },
+      {
+        "FieldName": "bufferTimeMultiplier",
+        "Offset": "0xD0"
+      },
+      {
+        "FieldName": "snapshots",
+        "Offset": "0xD8"
+      },
+      {
+        "FieldName": "snapshotBufferSizeLimit",
+        "Offset": "0xE0"
+      },
+      {
+        "FieldName": "lastPingTime",
+        "Offset": "0xE8"
+      },
+      {
+        "FieldName": "_rtt",
+        "Offset": "0xF0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkConnectionToServer",
+    "Fields": []
+  },
+  {
+    "TypeName": "NetworkDiagnostics.MessageInfo",
+    "Fields": [
+      {
+        "FieldName": "message",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "channel",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "bytes",
+        "Offset": "0xC"
+      },
+      {
+        "FieldName": "count",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkDiagnostics",
+    "Fields": [
+      {
+        "FieldName": "OutMessageEvent",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "InMessageEvent",
+        "Offset": "0x8"
+      }
+    ]
+  },
+  {
+    "TypeName": "Visibility",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Default",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ForceHidden",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ForceShown",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkIdentitySerialization",
+    "Fields": [
+      {
+        "FieldName": "tick",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ownerWriter",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "observersWriter",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkIdentity.ClientAuthorityCallback",
+    "Fields": []
+  },
+  {
+    "TypeName": "NetworkIdentity",
+    "Fields": [
+      {
+        "FieldName": "<isClient>k__BackingField",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "<isServer>k__BackingField",
+        "Offset": "0x21"
+      },
+      {
+        "FieldName": "<isLocalPlayer>k__BackingField",
+        "Offset": "0x22"
+      },
+      {
+        "FieldName": "<isOwned>k__BackingField",
+        "Offset": "0x23"
+      },
+      {
+        "FieldName": "observers",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "<netId>k__BackingField",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "sceneId",
+        "Offset": "0x38"
+      },
+      {
+        "FieldName": "_assetId",
+        "Offset": "0x40"
+      },
+      {
+        "FieldName": "serverOnly",
+        "Offset": "0x44"
+      },
+      {
+        "FieldName": "destroyCalled",
+        "Offset": "0x45"
+      },
+      {
+        "FieldName": "<connectionToServer>k__BackingField",
+        "Offset": "0x48"
+      },
+      {
+        "FieldName": "_connectionToClient",
+        "Offset": "0x50"
+      },
+      {
+        "FieldName": "<NetworkBehaviours>k__BackingField",
+        "Offset": "0x58"
+      },
+      {
+        "FieldName": "MaxNetworkBehaviours",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "visible",
+        "Offset": "0x60"
+      },
+      {
+        "FieldName": "lastSerialization",
+        "Offset": "0x68"
+      },
+      {
+        "FieldName": "sceneIds",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "nextNetworkId",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "clientAuthorityCallback",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "hasSpawned",
+        "Offset": "0x80"
+      },
+      {
+        "FieldName": "<SpawnedFromInstantiate>k__BackingField",
+        "Offset": "0x81"
+      },
+      {
+        "FieldName": "clientStarted",
+        "Offset": "0x82"
+      },
+      {
+        "FieldName": "previousLocalPlayer",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "hadAuthority",
+        "Offset": "0x83"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkLoop.AddMode",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Beginning",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "End",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkLoop.<>O",
+    "Fields": [
+      {
+        "FieldName": "<0>__NetworkEarlyUpdate",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "<1>__NetworkLateUpdate",
+        "Offset": "0x8"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkLoop.<>c__DisplayClass4_0",
+    "Fields": [
+      {
+        "FieldName": "function",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkLoop.<>c__DisplayClass5_0",
+    "Fields": [
+      {
+        "FieldName": "function",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkLoop",
+    "Fields": [
+      {
+        "FieldName": "OnEarlyUpdate",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OnLateUpdate",
+        "Offset": "0x8"
+      }
+    ]
+  },
+  {
+    "TypeName": "PlayerSpawnMethod",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Random",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "RoundRobin",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkManagerMode",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Offline",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ServerOnly",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ClientOnly",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Host",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkManager.<>c",
+    "Fields": [
+      {
+        "FieldName": "<>9",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "<>9__33_0",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "<>9__69_0",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "<>9__86_0",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "<>9__88_0",
+        "Offset": "0x20"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkManager",
+    "Fields": [
+      {
+        "FieldName": "dontDestroyOnLoad",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "runInBackground",
+        "Offset": "0x21"
+      },
+      {
+        "FieldName": "autoStartServerBuild",
+        "Offset": "0x22"
+      },
+      {
+        "FieldName": "autoConnectClientBuild",
+        "Offset": "0x23"
+      },
+      {
+        "FieldName": "sendRate",
+        "Offset": "0x24"
+      },
+      {
+        "FieldName": "offlineScene",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "onlineScene",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "transport",
+        "Offset": "0x38"
+      },
+      {
+        "FieldName": "networkAddress",
+        "Offset": "0x40"
+      },
+      {
+        "FieldName": "maxConnections",
+        "Offset": "0x48"
+      },
+      {
+        "FieldName": "disconnectInactiveConnections",
+        "Offset": "0x4C"
+      },
+      {
+        "FieldName": "disconnectInactiveTimeout",
+        "Offset": "0x50"
+      },
+      {
+        "FieldName": "authenticator",
+        "Offset": "0x58"
+      },
+      {
+        "FieldName": "playerPrefab",
+        "Offset": "0x60"
+      },
+      {
+        "FieldName": "autoCreatePlayer",
+        "Offset": "0x68"
+      },
+      {
+        "FieldName": "playerSpawnMethod",
+        "Offset": "0x6C"
+      },
+      {
+        "FieldName": "spawnPrefabs",
+        "Offset": "0x70"
+      },
+      {
+        "FieldName": "startPositions",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "startPositionIndex",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "snapshotSettings",
+        "Offset": "0x78"
+      },
+      {
+        "FieldName": "connectionQualityInterval",
+        "Offset": "0x80"
+      },
+      {
+        "FieldName": "lastConnectionQualityUpdate",
+        "Offset": "0x88"
+      },
+      {
+        "FieldName": "lastConnectionQuality",
+        "Offset": "0x90"
+      },
+      {
+        "FieldName": "timeInterpolationGui",
+        "Offset": "0x91"
+      },
+      {
+        "FieldName": "<singleton>k__BackingField",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "clientReadyConnection",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "clientLoadedScene",
+        "Offset": "0x92"
+      },
+      {
+        "FieldName": "<mode>k__BackingField",
+        "Offset": "0x94"
+      },
+      {
+        "FieldName": "finishStartHostPending",
+        "Offset": "0x98"
+      },
+      {
+        "FieldName": "<networkSceneName>k__BackingField",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "loadingSceneAsync",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "clientSceneOperation",
+        "Offset": "0x99"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkManagerHUD",
+    "Fields": [
+      {
+        "FieldName": "manager",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "offsetX",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "offsetY",
+        "Offset": "0x2C"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkMessage",
+    "Fields": []
+  },
+  {
+    "TypeName": "NetworkMessageId<T>",
+    "Fields": [
+      {
+        "FieldName": "Id",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkMessages.<>c__DisplayClass8_0<T, C>",
+    "Fields": [
+      {
+        "FieldName": "requireAuthentication",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "handler",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkMessages.<>c__DisplayClass9_0<T, C>",
+    "Fields": [
+      {
+        "FieldName": "handler",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkMessages",
+    "Fields": [
+      {
+        "FieldName": "IdSize",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Lookup",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkReader",
+    "Fields": [
+      {
+        "FieldName": "buffer",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "Position",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "encoding",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "AllocationLimit",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "Reader<T>",
+    "Fields": [
+      {
+        "FieldName": "read",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkReaderExtensions",
+    "Fields": []
+  },
+  {
+    "TypeName": "NetworkReaderPool.<>c",
+    "Fields": [
+      {
+        "FieldName": "<>9",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkReaderPool",
+    "Fields": [
+      {
+        "FieldName": "Pool",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkReaderPooled",
+    "Fields": []
+  },
+  {
+    "TypeName": "NetworkServer.DestroyMode",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Destroy",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Reset",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkServer.<>O",
+    "Fields": [
+      {
+        "FieldName": "<0>__OnTransportConnected",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "<1>__OnTransportData",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "<2>__OnTransportDisconnected",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "<3>__OnTransportError",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "<4>__OnClientReadyMessage",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "<5>__OnCommandMessage",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "<6>__OnServerPing",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "<7>__OnServerPong",
+        "Offset": "0x38"
+      },
+      {
+        "FieldName": "<8>__OnEntityStateMessage",
+        "Offset": "0x40"
+      },
+      {
+        "FieldName": "<9>__OnTimeSnapshotMessage",
+        "Offset": "0x48"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkServer.<>c__DisplayClass69_0<T>",
+    "Fields": [
+      {
+        "FieldName": "handler",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkServer",
+    "Fields": [
+      {
+        "FieldName": "initialized",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "maxConnections",
+        "Offset": "0x4"
+      },
+      {
+        "FieldName": "tickRate",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "lastSendTime",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "<localConnection>k__BackingField",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "connections",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "handlers",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "spawned",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "dontListen",
+        "Offset": "0x38"
+      },
+      {
+        "FieldName": "<active>k__BackingField",
+        "Offset": "0x39"
+      },
+      {
+        "FieldName": "isLoadingScene",
+        "Offset": "0x3A"
+      },
+      {
+        "FieldName": "aoi",
+        "Offset": "0x40"
+      },
+      {
+        "FieldName": "disconnectInactiveConnections",
+        "Offset": "0x48"
+      },
+      {
+        "FieldName": "disconnectInactiveTimeout",
+        "Offset": "0x4C"
+      },
+      {
+        "FieldName": "OnConnectedEvent",
+        "Offset": "0x50"
+      },
+      {
+        "FieldName": "OnDisconnectedEvent",
+        "Offset": "0x58"
+      },
+      {
+        "FieldName": "OnErrorEvent",
+        "Offset": "0x60"
+      },
+      {
+        "FieldName": "actualTickRate",
+        "Offset": "0x68"
+      },
+      {
+        "FieldName": "actualTickRateStart",
+        "Offset": "0x70"
+      },
+      {
+        "FieldName": "actualTickRateCounter",
+        "Offset": "0x78"
+      },
+      {
+        "FieldName": "earlyUpdateDuration",
+        "Offset": "0x80"
+      },
+      {
+        "FieldName": "lateUpdateDuration",
+        "Offset": "0xC0"
+      },
+      {
+        "FieldName": "fullUpdateDuration",
+        "Offset": "0x100"
+      },
+      {
+        "FieldName": "connectionsCopy",
+        "Offset": "0x140"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkStartPosition",
+    "Fields": []
+  },
+  {
+    "TypeName": "NetworkTime",
+    "Fields": [
+      {
+        "FieldName": "PingInterval",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "PingWindowSize",
+        "Offset": "0x4"
+      },
+      {
+        "FieldName": "lastPingTime",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "_rtt",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkWriter",
+    "Fields": [
+      {
+        "FieldName": "MaxStringLength",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "DefaultCapacity",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "buffer",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "Position",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "encoding",
+        "Offset": "0x20"
+      }
+    ]
+  },
+  {
+    "TypeName": "Writer<T>",
+    "Fields": [
+      {
+        "FieldName": "write",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkWriterExtensions",
+    "Fields": []
+  },
+  {
+    "TypeName": "NetworkWriterPool.<>c",
+    "Fields": [
+      {
+        "FieldName": "<>9",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkWriterPool",
+    "Fields": [
+      {
+        "FieldName": "Pool",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkWriterPooled",
+    "Fields": []
+  },
+  {
+    "TypeName": "PortTransport",
+    "Fields": []
+  },
+  {
+    "TypeName": "Snapshot",
+    "Fields": []
+  },
+  {
+    "TypeName": "SortedListExtensions",
+    "Fields": []
+  },
+  {
+    "TypeName": "SnapshotInterpolation",
+    "Fields": []
+  },
+  {
+    "TypeName": "SnapshotInterpolationSettings",
+    "Fields": [
+      {
+        "FieldName": "bufferTimeMultiplier",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "bufferLimit",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "catchupNegativeThreshold",
+        "Offset": "0x1C"
+      },
+      {
+        "FieldName": "catchupPositiveThreshold",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "catchupSpeed",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "slowdownSpeed",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "driftEmaDuration",
+        "Offset": "0x38"
+      },
+      {
+        "FieldName": "dynamicAdjustment",
+        "Offset": "0x3C"
+      },
+      {
+        "FieldName": "dynamicAdjustmentTolerance",
+        "Offset": "0x40"
+      },
+      {
+        "FieldName": "deliveryTimeEmaDuration",
+        "Offset": "0x44"
+      }
+    ]
+  },
+  {
+    "TypeName": "TimeSnapshot",
+    "Fields": [
+      {
+        "FieldName": "<remoteTime>k__BackingField",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "<localTime>k__BackingField",
+        "Offset": "0x8"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncIDictionary.SyncDictionaryChanged<TKey, TValue>",
+    "Fields": []
+  },
+  {
+    "TypeName": "SyncIDictionary.Operation<TKey, TValue>",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_ADD",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_CLEAR",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_REMOVE",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_SET",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncIDictionary.Change<TKey, TValue>",
+    "Fields": [
+      {
+        "FieldName": "operation",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "key",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "item",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncIDictionary<TKey, TValue>",
+    "Fields": [
+      {
+        "FieldName": "objects",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Callback",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "changes",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "changesAhead",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncDictionary<TKey, TValue>",
+    "Fields": []
+  },
+  {
+    "TypeName": "SyncList.SyncListChanged<T>",
+    "Fields": []
+  },
+  {
+    "TypeName": "SyncList.Operation<T>",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_ADD",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_CLEAR",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_INSERT",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_REMOVEAT",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_SET",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncList.Change<T>",
+    "Fields": [
+      {
+        "FieldName": "operation",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "index",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "item",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncList.Enumerator<T>",
+    "Fields": [
+      {
+        "FieldName": "list",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "index",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "<Current>k__BackingField",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncList<T>",
+    "Fields": [
+      {
+        "FieldName": "objects",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "comparer",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Callback",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OnModified",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "changes",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "changesAhead",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncObject.<>c",
+    "Fields": [
+      {
+        "FieldName": "<>9",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "<>9__9_0",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "<>9__9_1",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncObject",
+    "Fields": [
+      {
+        "FieldName": "OnDirty",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "IsRecording",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "IsWritable",
+        "Offset": "0x20"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncSet.SyncSetChanged<T>",
+    "Fields": []
+  },
+  {
+    "TypeName": "SyncSet.Operation<T>",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_ADD",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_CLEAR",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OP_REMOVE",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncSet.Change<T>",
+    "Fields": [
+      {
+        "FieldName": "operation",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "item",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncSet<T>",
+    "Fields": [
+      {
+        "FieldName": "objects",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Callback",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "changes",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "changesAhead",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "SyncHashSet<T>",
+    "Fields": []
+  },
+  {
+    "TypeName": "SyncSortedSet<T>",
+    "Fields": []
+  },
+  {
+    "TypeName": "ConcurrentNetworkWriterPool.<>c",
+    "Fields": [
+      {
+        "FieldName": "<>9",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "ConcurrentNetworkWriterPool",
+    "Fields": [
+      {
+        "FieldName": "InitialCapacity",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "pool",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "ConcurrentNetworkWriterPooled",
+    "Fields": []
+  },
+  {
+    "TypeName": "ConcurrentPool<T>",
+    "Fields": [
+      {
+        "FieldName": "objects",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "objectGenerator",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "ThreadLog.LogEntry",
+    "Fields": [
+      {
+        "FieldName": "threadId",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "type",
+        "Offset": "0x4"
+      },
+      {
+        "FieldName": "message",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "stackTrace",
+        "Offset": "0x10"
+      }
+    ]
+  },
+  {
+    "TypeName": "ThreadLog.<>O",
+    "Fields": [
+      {
+        "FieldName": "<0>__OnLog",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "<1>__OnLateUpdate",
+        "Offset": "0x8"
+      }
+    ]
+  },
+  {
+    "TypeName": "ThreadLog",
+    "Fields": [
+      {
+        "FieldName": "logs",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "mainThreadId",
+        "Offset": "0x8"
+      }
+    ]
+  },
+  {
+    "TypeName": "WorkerThread.<>c__DisplayClass6_0",
+    "Fields": [
+      {
+        "FieldName": "<>4__this",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "identifier",
+        "Offset": "0x18"
+      }
+    ]
+  },
+  {
+    "TypeName": "WorkerThread",
+    "Fields": [
+      {
+        "FieldName": "thread",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "active",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "watch",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "Init",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "Tick",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "Cleanup",
+        "Offset": "0x38"
+      }
+    ]
+  },
+  {
+    "TypeName": "AccurateInterval",
+    "Fields": []
+  },
+  {
+    "TypeName": "Compression",
+    "Fields": [
+      {
+        "FieldName": "QuaternionMinRange",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "QuaternionMaxRange",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "TenBitsMax",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "DeltaCompression",
+    "Fields": []
+  },
+  {
+    "TypeName": "ExponentialMovingAverage",
+    "Fields": [
+      {
+        "FieldName": "alpha",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "initialized",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "Value",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "Variance",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "StandardDeviation",
+        "Offset": "0x20"
+      }
+    ]
+  },
+  {
+    "TypeName": "Extensions",
+    "Fields": []
+  },
+  {
+    "TypeName": "Mathd",
+    "Fields": []
+  },
+  {
+    "TypeName": "Pool<T>",
+    "Fields": [
+      {
+        "FieldName": "objects",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "objectGenerator",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "TimeSample",
+    "Fields": [
+      {
+        "FieldName": "watch",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "beginTime",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "ema",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "average",
+        "Offset": "0x38"
+      }
+    ]
+  },
+  {
+    "TypeName": "NetworkMessageDelegate",
+    "Fields": []
+  },
+  {
+    "TypeName": "SpawnDelegate",
+    "Fields": []
+  },
+  {
+    "TypeName": "SpawnHandlerDelegate",
+    "Fields": []
+  },
+  {
+    "TypeName": "UnSpawnDelegate",
+    "Fields": []
+  },
+  {
+    "TypeName": "Channels",
+    "Fields": [
+      {
+        "FieldName": "Reliable",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Unreliable",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Sequenced",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ReliableSequenced",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ReliableUnordered",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ReliableOrdered2",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "Utils",
+    "Fields": []
+  },
+  {
+    "TypeName": "Vector3Long",
+    "Fields": [
+      {
+        "FieldName": "x",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "y",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "z",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "zero",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "one",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "forward",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "back",
+        "Offset": "0x48"
+      },
+      {
+        "FieldName": "left",
+        "Offset": "0x60"
+      },
+      {
+        "FieldName": "right",
+        "Offset": "0x78"
+      },
+      {
+        "FieldName": "up",
+        "Offset": "0x90"
+      },
+      {
+        "FieldName": "down",
+        "Offset": "0xA8"
+      }
+    ]
+  },
+  {
+    "TypeName": "Transport",
+    "Fields": [
+      {
+        "FieldName": "active",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "OnClientConnected",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "OnClientDataReceived",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "OnClientDataSent",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "OnClientError",
+        "Offset": "0x38"
+      },
+      {
+        "FieldName": "OnClientDisconnected",
+        "Offset": "0x40"
+      },
+      {
+        "FieldName": "OnServerConnected",
+        "Offset": "0x48"
+      },
+      {
+        "FieldName": "OnServerDataReceived",
+        "Offset": "0x50"
+      },
+      {
+        "FieldName": "OnServerDataSent",
+        "Offset": "0x58"
+      },
+      {
+        "FieldName": "OnServerError",
+        "Offset": "0x60"
+      },
+      {
+        "FieldName": "OnServerDisconnected",
+        "Offset": "0x68"
+      }
+    ]
+  },
+  {
+    "TypeName": "TransportError",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "DnsResolve",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Refused",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Timeout",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Congestion",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "InvalidReceive",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "InvalidSend",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ConnectionClosed",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Unexpected",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "WeaverFuse",
+    "Fields": []
+  },
+  {
+    "TypeName": "RemoteCallType",
+    "Fields": [
+      {
+        "FieldName": "value__",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "Command",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "ClientRpc",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "RemoteCallDelegate",
+    "Fields": []
+  },
+  {
+    "TypeName": "Invoker",
+    "Fields": [
+      {
+        "FieldName": "componentType",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "callType",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "function",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "cmdRequiresAuthority",
+        "Offset": "0x28"
+      }
+    ]
+  },
+  {
+    "TypeName": "RemoteProcedureCalls",
+    "Fields": [
+      {
+        "FieldName": "remoteCallDelegates",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "<PrivateImplementationDetails>.__StaticArrayInitTypeSize=3074",
+    "Fields": []
+  },
+  {
+    "TypeName": "<PrivateImplementationDetails>.__StaticArrayInitTypeSize=3436",
+    "Fields": []
+  },
+  {
+    "TypeName": "<PrivateImplementationDetails>",
+    "Fields": [
+      {
+        "FieldName": "23852AD3696B76BE96E10D2D39A5BA0EC06E98E5C1FCAE4E0CF684986F56BC70",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "8CB133DA9C653DE7A530F5E3969BFEFB17AC6C29DAE9A67A9C00D10D2C766644",
+        "Offset": "0xD6C"
+      }
+    ]
+  },
+  {
+    "TypeName": "GeneratedNetworkCode",
+    "Fields": []
   }
 ]
