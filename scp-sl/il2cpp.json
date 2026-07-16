@@ -1,0 +1,196 @@
+[
+  {
+    "TypeName": "il2cpp_class",
+    "Fields": [
+      {
+        "FieldName": "name",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "parent",
+        "Offset": "0x58"
+      },
+      {
+        "FieldName": "static_fields",
+        "Offset": "0xB8"
+      }
+    ]
+  },
+  {
+    "TypeName": "il2cpp_object",
+    "Fields": [
+      {
+        "FieldName": "klass",
+        "Offset": "0x0"
+      }
+    ]
+  },
+  {
+    "TypeName": "system_string",
+    "Fields": [
+      {
+        "FieldName": "length",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "data",
+        "Offset": "0x14"
+      }
+    ]
+  },
+  {
+    "TypeName": "system_array",
+    "Fields": [
+      {
+        "FieldName": "length",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "data",
+        "Offset": "0x20"
+      }
+    ]
+  },
+  {
+    "TypeName": "system_list",
+    "Fields": [
+      {
+        "FieldName": "items",
+        "Offset": "0x10"
+      },
+      {
+        "FieldName": "size",
+        "Offset": "0x18"
+      }
+    ]
+  },
+  {
+    "TypeName": "system_dictionary",
+    "Fields": [
+      {
+        "FieldName": "entries",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "count",
+        "Offset": "0x20"
+      }
+    ]
+  },
+  {
+    "TypeName": "system_hash_set",
+    "Fields": [
+      {
+        "FieldName": "slots",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "count",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "last_index",
+        "Offset": "0x24"
+      }
+    ]
+  },
+  {
+    "TypeName": "internal_component_array",
+    "Fields": [
+      {
+        "FieldName": "transform",
+        "Offset": "0x8"
+      }
+    ]
+  },
+  {
+    "TypeName": "internal_game_object",
+    "Fields": [
+      {
+        "FieldName": "component_array",
+        "Offset": "0x20"
+      },
+      {
+        "FieldName": "component_count",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "name",
+        "Offset": "0x50"
+      }
+    ]
+  },
+  {
+    "TypeName": "internal_transform_data",
+    "Fields": [
+      {
+        "FieldName": "matrix_array",
+        "Offset": "0x0"
+      },
+      {
+        "FieldName": "index_size",
+        "Offset": "0x4"
+      },
+      {
+        "FieldName": "parent_indices",
+        "Offset": "0x8"
+      },
+      {
+        "FieldName": "matrix_size",
+        "Offset": "0x30"
+      }
+    ]
+  },
+  {
+    "TypeName": "internal_hierarchy",
+    "Fields": [
+      {
+        "FieldName": "transform_data",
+        "Offset": "0x18"
+      },
+      {
+        "FieldName": "root_transform",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "root_position",
+        "Offset": "0x90"
+      }
+    ]
+  },
+  {
+    "TypeName": "internal_transform",
+    "Fields": [
+      {
+        "FieldName": "hierarchy",
+        "Offset": "0x28"
+      },
+      {
+        "FieldName": "index",
+        "Offset": "0x30"
+      },
+      {
+        "FieldName": "parent",
+        "Offset": "0x80"
+      }
+    ]
+  },
+  {
+    "TypeName": "internal_native",
+    "Fields": [
+      {
+        "FieldName": "game_object",
+        "Offset": "0x20"
+      }
+    ]
+  },
+  {
+    "TypeName": "object",
+    "Fields": [
+      {
+        "FieldName": "internal_native",
+        "Offset": "0x10"
+      }
+    ]
+  }
+]
