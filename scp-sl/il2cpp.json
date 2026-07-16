@@ -192,5 +192,23 @@
         "Offset": "0x10"
       }
     ]
+  },
+  {
+    "TypeName": "camera",
+    "Fields": [
+      {
+        "FieldName": "view_projection_matrix",
+        "Offset": "0xF0"
+      }
+    ]
+  },
+  {
+    "TypeName": "mini_wave_base",
+    "Fields": [
+      {
+        "FieldName": "respawn_tokens",
+        "Offset": "0x28"
+      }
+    ]
   }
 ]
